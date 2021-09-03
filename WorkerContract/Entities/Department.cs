@@ -6,8 +6,12 @@ namespace WorkerContract.Entities
 {
     class Department
     {
+        //classe responsavel pelo departamento do trabalhador
+        //inicio propriedades
         public string Name { get; set; }
+        //fim propriedades
 
+        //inicio dos contrutores
         public Department()
         {
         }
@@ -16,5 +20,6 @@ namespace WorkerContract.Entities
         {
             Name = name;
         }
+        //fim dos construtores
     }
 }
